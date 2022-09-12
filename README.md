@@ -14,13 +14,13 @@ PocketCord is a PocketMine-MP plugin designed to link discord and your PocketMin
 <img width="600" align="center" src="https://cdn.discordapp.com/attachments/1016512361030496267/1019013844296798228/ezgif.com-gif-maker.gif" alt="demo"/>
 </p>
 
-Download the plugin in `.phar` form `link`
+Download the plugin in `.phar` form [here](https://github.com/CJMustard1452/PocketCord/releases/tag/Newest).
 
 
 - You MUST be running [PocketMine-MP v4+](https://www.pocketmine.net) to use `PocketCord` properly.
 
 ## Setup
-- just run /pocketcord (Choosen Webhook Name) (Webhook URL)
+- just run /pocketcord (Choosen Webhook Name) (Webhook URL).
 
 
 
