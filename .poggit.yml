@@ -5,5 +5,5 @@ branches:
 projects:
   PocketCord:
     path: ""
-    icon: "PoggitIcon.png"
+    icon: "icon.png"
 ...
