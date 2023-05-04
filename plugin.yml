@@ -1,0 +1,7 @@
+src-namespace-prefix: CJMustard1452\PocketCord
+website: https://github.com/CJMustard1452
+main: CJMustard1452\PocketCord\Main
+author: CJMustard1452
+name: PocketCord
+version: 2
+api: 4.20.1
