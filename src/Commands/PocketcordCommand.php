@@ -21,10 +21,12 @@ class PocketcordCommand extends Command  {
     }
 
     public function execute(CommandSender $sender, $commandLabel, array $args) {
-        if(!isset($args[0])) return $sender->sendMessage('§7(§3PocketCord§r§7) §cPlease enter a webhook URL.');
-        if(!str_starts_with($args[0], 'https://discord.com/api/webhooks')) return $sender->sendMessage('§7(§3PocketCord§r§7) §cThis is not a valid webhook URL.');
-        $this->dataModule->setWebhookURL($args[0]);
-        $sender->sendMessage('§7(§3PocketCord§r§7) §aYou have set a new webhook URL.');
+        if(isset($args[0])) {
+            if(str_starts_with($args[0], 'https://discord.com/api/webhooks')) {
+                $this->dataModule->setWebhookURL($args[0]);
+                $sender->sendMessage('§7(§3PocketCord§r§7) §aYou have set a new webhook URL.');
+            } else $sender->sendMessage('§7(§3PocketCord§r§7) §cThis is not a valid webhook URL.'); 
+        } else $sender->sendMessage('§7(§3PocketCord§r§7) §cPlease enter a webhook URL.');
         return true;
     }
 }
