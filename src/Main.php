@@ -14,7 +14,7 @@ class Main extends PluginBase {
 		$dataModule = new DataModule($this);
 		$this->getServer()->getPluginManager()->registerEvents(new EventListener($dataModule), $this);
 		$this->getScheduler()->scheduleRepeatingTask(new WebhookTask($dataModule), 10);
-                $this->getServer()->getCommandMap()->register("PocketcordCommand", new PocketcordCommand($dataModule));
+                $this->getServer()->getCommandMap()->register("pocketcord", new PocketcordCommand($dataModule));
 		new SetupModule($dataModule);
 	}
 }
