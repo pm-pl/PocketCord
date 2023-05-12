@@ -16,7 +16,6 @@ class PocketcordCommand extends Command  {
         PermissionManager::getInstance()->addPermission(new Permission('PocketCord.admin'));
         $this->setDescription('Allows access to edit webhook URLs.');
         $this->setPermission('PocketCord.admin');
-        $this->setLabel('pocketcord');
         $this->dataModule = $dataModule;
     }
 
