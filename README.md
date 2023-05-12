@@ -20,7 +20,7 @@ Download the plugin in `.phar` form [here](https://github.com/CJMustard1452/Pock
 - You MUST be running [PocketMine-MP v4+](https://www.pocketmine.net) to use `PocketCord` properly.
 
 ## Setup
-- Simply run /pocketcord (Choosen Webhook Name) (Webhook URL).
+- Simply run /pocketcord (Webhook URL).
 
 
 
